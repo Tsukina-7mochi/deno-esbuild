@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "strict": true,
+    "strictNullChecks": true,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "noUnusedParameters": true,
+    "experimentalDecorators": true,
+    "lib": [
+      "DOM",
+      "ESNext"
+    ]
+  },
+  "lint": {
+    "files": {
+      "include": ["src/"],
+      "exclude": ["dist/"]
+    },
+    "rules": {
+      "tags": ["recommended"]
+    }
+  },
+  "fmt": {
+    "files": {
+      "include": ["src/"],
+      "exclude": ["dist/"]
+    },
+    "options": {
+      "indentWidth": 2,
+      "lineWidth": 80,
+      "proseWrap": "always",
+      "singleQuote": true,
+      "useTabs": false
+    }
+  },
+  "importMap": "import_map.json",
+  "tasks": {}
+}
