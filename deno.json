@@ -5,17 +5,17 @@
     "strictNullChecks": true,
     "noImplicitThis": true,
     "noImplicitAny": true,
-    "noUnusedParameters": true,
-    "experimentalDecorators": true,
+    "noUnusedParameters": "warn",
     "lib": [
       "DOM",
-      "ESNext"
+      "ESNext",
+      "deno.window"
     ]
   },
   "lint": {
     "files": {
       "include": ["src/"],
-      "exclude": ["dist/"]
+      "exclude": ["dist/", "*.scss"]
     },
     "rules": {
       "tags": ["recommended"]
@@ -24,7 +24,7 @@
   "fmt": {
     "files": {
       "include": ["src/"],
-      "exclude": ["dist/"]
+      "exclude": ["dist/", "*.scss"]
     },
     "options": {
       "indentWidth": 2,
@@ -34,6 +34,10 @@
       "useTabs": false
     }
   },
-  "importMap": "import_map.json",
-  "tasks": {}
+  "tasks": {
+    "build": "deno run --allow-run --allow-read --allow-write --allow-env ./build.ts",
+    "dev": "deno run --allow-run --allow-read --allow-write --allow-env ./build.ts --dev",
+    "watch": "deno run --allow-run --allow-read --allow-write --allow-env ./build.ts --dev --watch",
+    "clear": "rm -rf dist/"
+  }
 }
