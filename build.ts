@@ -21,7 +21,7 @@ if(options.dev && options.watch) {
   if(!config.watch) {
     // if watch field is undefined, set rebuild listener
     const watchOption: esbuild.BuildOptions["watch"] = {
-      onRebuild(error, result) {
+      onRebuild(error, _) {
         if(error) {
           console.error(fmt.bold(getTimeString()) + ' Build failed.');
         } else {
