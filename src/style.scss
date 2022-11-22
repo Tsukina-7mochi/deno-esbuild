@@ -1,0 +1,26 @@
+body {
+    font-size: 20px;
+    line-height: 1.5em;
+    color: #404040;
+
+    main {
+        margin: 0 auto;
+        max-width: 40em;
+        text-align: center;
+    }
+}
+
+button {
+    border-radius: 25%;
+    padding: 1em 2em;
+    background-color: #FFFFFF;
+    border: 1px solid #808080;
+
+    &:hover {
+        background-color: F0F0F0;
+    }
+
+    &:active {
+        background-color: E0E0E0;
+    }
+}
