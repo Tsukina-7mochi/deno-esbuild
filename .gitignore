@@ -1,6 +1,9 @@
 # Destination directory
 /dist
 
+# Cache directory
+/cache
+
 *.orig
 *.pyc
 *.swp

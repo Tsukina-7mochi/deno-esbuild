@@ -5,7 +5,7 @@
     "strictNullChecks": true,
     "noImplicitThis": true,
     "noImplicitAny": true,
-    "noUnusedParameters": "warn",
+    "noUnusedParameters": true,
     "lib": [
       "DOM",
       "ESNext",
@@ -34,10 +34,11 @@
       "useTabs": false
     }
   },
+  "importMap": "import_map.json",
   "tasks": {
     "build": "deno run --allow-run --allow-read --allow-write --allow-env ./build.ts",
     "dev": "deno run --allow-run --allow-read --allow-write --allow-env ./build.ts --dev",
     "watch": "deno run --allow-run --allow-read --allow-write --allow-env ./build.ts --dev --watch",
-    "clear": "rm -rf dist/"
+    "clear": "rm -rf dist/ && rm -rf cache/"
   }
 }
