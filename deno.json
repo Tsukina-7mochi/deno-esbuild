@@ -34,7 +34,6 @@
       "useTabs": false
     }
   },
-  "importMap": "import_map.json",
   "tasks": {
     "build": "deno run --allow-run --allow-read --allow-write --allow-env ./build.ts",
     "dev": "deno run --allow-run --allow-read --allow-write --allow-env ./build.ts --dev",
