@@ -38,6 +38,6 @@
     "build": "deno run --allow-run --allow-read --allow-write --allow-env ./build.ts",
     "dev": "deno run --allow-run --allow-read --allow-write --allow-env ./build.ts --dev",
     "watch": "deno run --allow-run --allow-read --allow-write --allow-env ./build.ts --dev --watch",
-    "clear": "rm -rf dist/ && rm -rf cache/"
+    "clean": "rm -rf dist/ && rm -rf cache/"
   }
 }
