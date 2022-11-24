@@ -35,9 +35,9 @@
     }
   },
   "tasks": {
-    "build": "deno run --allow-run --allow-read --allow-write --allow-env ./build.ts",
-    "dev": "deno run --allow-run --allow-read --allow-write --allow-env ./build.ts --dev",
-    "watch": "deno run --allow-run --allow-read --allow-write --allow-env ./build.ts --dev --watch",
+    "build": "deno run --allow-run --allow-read --allow-write --allow-env --allow-net ./build.ts",
+    "dev": "deno run --allow-run --allow-read --allow-write --allow-env --allow-net ./build.ts --dev",
+    "watch": "deno run --allow-run --allow-read --allow-write --allow-env --allow-net ./build.ts --dev --watch",
     "clean": "rm -rf dist/ && rm -rf cache/"
   }
 }
