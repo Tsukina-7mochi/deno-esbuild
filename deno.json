@@ -15,7 +15,7 @@
   "lint": {
     "files": {
       "include": ["src/"],
-      "exclude": ["dist/", "*.scss"]
+      "exclude": ["dist/"]
     },
     "rules": {
       "tags": ["recommended"]
@@ -24,7 +24,7 @@
   "fmt": {
     "files": {
       "include": ["src/"],
-      "exclude": ["dist/", "*.scss"]
+      "exclude": ["dist/"]
     },
     "options": {
       "indentWidth": 2,
