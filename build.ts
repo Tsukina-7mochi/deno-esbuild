@@ -1,8 +1,8 @@
-import * as esbuild from 'https://deno.land/x/esbuild@v0.15.10/mod.js';
-import { posix } from 'https://deno.land/std/path/mod.ts';
-import { Command } from "https://deno.land/x/cliffy@v0.19.2/command/mod.ts";
-import { readLines } from "https://deno.land/std/io/mod.ts";
-import * as fmt from "https://deno.land/std@0.165.0/fmt/colors.ts";
+import * as esbuild from 'esbuild';
+import { Plugin, BuildOptions } from 'esbuild';
+import { Command } from "cliffy";
+import { readLines } from "std/io/mod.ts";
+import * as fmt from "std/fmt/colors.ts";
 import devConfig from './esbuild.dev.ts';
 import prodConfig from './esbuild.prod.ts';
 
@@ -11,43 +11,53 @@ const getTimeString = () => {
   return `${date.getHours()}:${date.getMinutes()}:${date.getSeconds()}`;
 }
 
+const buildResultPlugin: Plugin = (() => {
+  let startTime = 0;
+  let endTime = 0;
+  return {
+    name: 'build-result-plugin',
+    setup(build) {
+      build.onStart(() => {
+        startTime = Date.now();
+      });
+      build.onEnd((result) => {
+        endTime = Date.now();
+
+        if(result.errors.length > 0) {
+          console.log(`${fmt.bold(getTimeString())} Build failed with ${result.errors.length} errors.`);
+        } else {
+          console.log(`${fmt.bold(getTimeString())} Build succeeded in ${endTime - startTime}ms`);
+        }
+      });
+    },
+  }
+})();
+
 const { options, args } = await new Command()
   .option('-d, --dev', 'development mode')
   .option('-w, --watch', 'watch mode (development only)')
   .parse(Deno.args);
 
-const config = options.dev ? devConfig : prodConfig;
-if(options.dev && options.watch) {
-  if(!config.watch) {
-    // if watch field is undefined, set rebuild listener
-    const watchOption: esbuild.BuildOptions["watch"] = {
-      onRebuild(error, _) {
-        if(error) {
-          console.error(fmt.bold(getTimeString()) + ' Build failed.');
-        } else {
-          console.log(fmt.bold(getTimeString()) + ' Build succeeded.');
-        }
-      }
-    }
-    config.watch = watchOption;
-  }
-}
-
-const result = await esbuild.build(config);
+let config = options.dev ? devConfig : prodConfig;
+config = {
+  ...config,
+  plugins: [
+    buildResultPlugin,
+    ...(config.plugins ?? [])
+  ]
+};
+const ctx = await esbuild.context(config);
 
 if(options.dev && options.watch) {
+  await ctx.watch();
   console.log('Watching...');
 
   for await(const _ of readLines(Deno.stdin)) {
     // do nothing
   }
 } else {
-  if(result.errors.length > 0) {
-    console.error(fmt.bold(getTimeString()) + ' Build failed.');
-    console.error(result.errors);
-  } else {
-    console.log(fmt.bold(getTimeString()) + ' Build succeeded.');
-  }
+  // just build
+  await ctx.rebuild();
 }
 
 esbuild.stop();

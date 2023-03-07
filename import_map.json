@@ -1,8 +1,10 @@
 {
   "imports": {
+    "cliffy": "https://deno.land/x/cliffy@v0.25.7/mod.ts",
     "esbuild": "https://deno.land/x/esbuild@v0.17.11/mod.js",
-    "posix": "https://deno.land/std@0.174.0/path/mod.ts",
+    "esbuild-cache-plugin": "https://deno.land/x/esbuild_cache_plugin@v0.1.0/mod.ts",
     "esbuild-sass-plugin": "npm:esbuild-sass-plugin@2.6.0",
-    "esbuild-cache-plugin": "https://deno.land/x/esbuild_cache_plugin@v0.1.0/mod.ts"
+    "posix": "https://deno.land/std@0.174.0/path/mod.ts",
+    "std/": "https://deno.land/std@0.178.0/"
   }
 }
