@@ -1,0 +1,8 @@
+{
+  "imports": {
+    "esbuild": "https://deno.land/x/esbuild@v0.17.11/mod.js",
+    "posix": "https://deno.land/std@0.174.0/path/mod.ts",
+    "esbuild-sass-plugin": "npm:esbuild-sass-plugin",
+    "esbuild-cache-plugin": "https://deno.land/x/esbuild_plugin_cache@v0.2.10/mod.ts"
+  }
+}

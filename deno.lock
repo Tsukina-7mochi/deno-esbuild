@@ -24,6 +24,49 @@
     "https://deno.land/std@0.165.0/path/posix.ts": "6b63de7097e68c8663c84ccedc0fd977656eb134432d818ecd3a4e122638ac24",
     "https://deno.land/std@0.165.0/path/separator.ts": "fe1816cb765a8068afb3e8f13ad272351c85cbc739af56dacfc7d93d710fe0f9",
     "https://deno.land/std@0.165.0/path/win32.ts": "7cebd2bda6657371adc00061a1d23fdd87bcdf64b4843bb148b0b24c11b40f69",
+    "https://deno.land/std@0.174.0/_util/asserts.ts": "178dfc49a464aee693a7e285567b3d0b555dc805ff490505a8aae34f9cfb1462",
+    "https://deno.land/std@0.174.0/_util/os.ts": "d932f56d41e4f6a6093d56044e29ce637f8dcc43c5a90af43504a889cf1775e3",
+    "https://deno.land/std@0.174.0/path/_constants.ts": "e49961f6f4f48039c0dfed3c3f93e963ca3d92791c9d478ac5b43183413136e0",
+    "https://deno.land/std@0.174.0/path/_interface.ts": "6471159dfbbc357e03882c2266d21ef9afdb1e4aa771b0545e90db58a0ba314b",
+    "https://deno.land/std@0.174.0/path/_util.ts": "86c2375a996c1931b2f2ac71fefd5ddf0cf0e579fa4ab12d3e4c552d4223b8d8",
+    "https://deno.land/std@0.174.0/path/common.ts": "ee7505ab01fd22de3963b64e46cff31f40de34f9f8de1fff6a1bd2fe79380000",
+    "https://deno.land/std@0.174.0/path/glob.ts": "d479e0a695621c94d3fd7fe7abd4f9499caf32a8de13f25073451c6ef420a4e1",
+    "https://deno.land/std@0.174.0/path/mod.ts": "4b83694ac500d7d31b0cdafc927080a53dc0c3027eb2895790fb155082b0d232",
+    "https://deno.land/std@0.174.0/path/posix.ts": "0874b341c2c6968ca38d323338b8b295ea1dae10fa872a768d812e2e7d634789",
+    "https://deno.land/std@0.174.0/path/separator.ts": "0fb679739d0d1d7bf45b68dacfb4ec7563597a902edbaf3c59b50d5bcadd93b1",
+    "https://deno.land/std@0.174.0/path/win32.ts": "672942919dd66ce1b8c224e77d3447e2ad8254eaff13fe6946420a9f78fa141e",
+    "https://deno.land/std@0.178.0/_util/asserts.ts": "178dfc49a464aee693a7e285567b3d0b555dc805ff490505a8aae34f9cfb1462",
+    "https://deno.land/std@0.178.0/_util/os.ts": "d932f56d41e4f6a6093d56044e29ce637f8dcc43c5a90af43504a889cf1775e3",
+    "https://deno.land/std@0.178.0/bytes/bytes_list.ts": "b4cbdfd2c263a13e8a904b12d082f6177ea97d9297274a4be134e989450dfa6a",
+    "https://deno.land/std@0.178.0/bytes/concat.ts": "d26d6f3d7922e6d663dacfcd357563b7bf4a380ce5b9c2bbe0c8586662f25ce2",
+    "https://deno.land/std@0.178.0/bytes/copy.ts": "939d89e302a9761dcf1d9c937c7711174ed74c59eef40a1e4569a05c9de88219",
+    "https://deno.land/std@0.178.0/io/buf_reader.ts": "90a7adcb3638d8e1361695cdf844d58bcd97c41711dc6f9f8acc0626ebe097f5",
+    "https://deno.land/std@0.178.0/io/buf_writer.ts": "2fcaadd9f157970fede6e79c8ea9a58556d8cf3c8a686c3fcaaf3875460092cc",
+    "https://deno.land/std@0.178.0/io/buffer.ts": "e2b7564f684dad625cab08f5106f33572d325705d19a36822b3272fbdfb8f726",
+    "https://deno.land/std@0.178.0/io/copy_n.ts": "c498021ce291576a68b5bae9f9d3a27f97644f4af6c1047fb1cff054af19e436",
+    "https://deno.land/std@0.178.0/io/limited_reader.ts": "d709b5b3113d4cbf934415ba242596e0ecb130e8868fb47197217e09dbb59558",
+    "https://deno.land/std@0.178.0/io/mod.ts": "2665bcccc1fd6e8627cca167c3e92aaecbd9897556b6f69e6d258070ef63fd9b",
+    "https://deno.land/std@0.178.0/io/multi_reader.ts": "5f7ef6e987486322b38c72e206b8fbc8916d55a87fbcdc97a8b2596386c28d44",
+    "https://deno.land/std@0.178.0/io/read_delim.ts": "7e102c66f00a118fa1e1ccd4abb080496f43766686907fd8b9522fdf85443586",
+    "https://deno.land/std@0.178.0/io/read_int.ts": "7cb8bcdfaf1107586c3bacc583d11c64c060196cb070bb13ae8c2061404f911f",
+    "https://deno.land/std@0.178.0/io/read_lines.ts": "baee9e35034f2fdfccf63bc24b7e3cb45aa1c1c5de26d178f7bcbc572e87772f",
+    "https://deno.land/std@0.178.0/io/read_long.ts": "f0aaa420e3da1261c5d33c5e729f09922f3d9fa49f046258d4ff7a00d800c71e",
+    "https://deno.land/std@0.178.0/io/read_range.ts": "28152daf32e43dd9f7d41d8466852b0d18ad766cd5c4334c91fef6e1b3a74eb5",
+    "https://deno.land/std@0.178.0/io/read_short.ts": "805cb329574b850b84bf14a92c052c59b5977a492cd780c41df8ad40826c1a20",
+    "https://deno.land/std@0.178.0/io/read_string_delim.ts": "46eb0c9db3547caf8c759631effa200bbe48924f9b34f41edc627bde36cee52d",
+    "https://deno.land/std@0.178.0/io/slice_long_to_bytes.ts": "b096472afa3a0dd90fa84584dde7706ed29fc16d48009a581c49368f09fe70f4",
+    "https://deno.land/std@0.178.0/io/string_reader.ts": "ad9cbecb8509732afcf3d73bb72fa551ec0ccc34f9b8127826247f0190753a65",
+    "https://deno.land/std@0.178.0/io/string_writer.ts": "8a03c5858c24965a54c6538bed15f32a7c72f5704a12bda56f83a40e28e5433e",
+    "https://deno.land/std@0.178.0/path/_constants.ts": "e49961f6f4f48039c0dfed3c3f93e963ca3d92791c9d478ac5b43183413136e0",
+    "https://deno.land/std@0.178.0/path/_interface.ts": "6471159dfbbc357e03882c2266d21ef9afdb1e4aa771b0545e90db58a0ba314b",
+    "https://deno.land/std@0.178.0/path/_util.ts": "d7abb1e0dea065f427b89156e28cdeb32b045870acdf865833ba808a73b576d0",
+    "https://deno.land/std@0.178.0/path/common.ts": "ee7505ab01fd22de3963b64e46cff31f40de34f9f8de1fff6a1bd2fe79380000",
+    "https://deno.land/std@0.178.0/path/glob.ts": "d479e0a695621c94d3fd7fe7abd4f9499caf32a8de13f25073451c6ef420a4e1",
+    "https://deno.land/std@0.178.0/path/mod.ts": "4b83694ac500d7d31b0cdafc927080a53dc0c3027eb2895790fb155082b0d232",
+    "https://deno.land/std@0.178.0/path/posix.ts": "8b7c67ac338714b30c816079303d0285dd24af6b284f7ad63da5b27372a2c94d",
+    "https://deno.land/std@0.178.0/path/separator.ts": "0fb679739d0d1d7bf45b68dacfb4ec7563597a902edbaf3c59b50d5bcadd93b1",
+    "https://deno.land/std@0.178.0/path/win32.ts": "d186344e5583bcbf8b18af416d13d82b35a317116e6460a5a3953508c3de5bba",
+    "https://deno.land/std@0.178.0/types.d.ts": "220ed56662a0bd393ba5d124aa6ae2ad36a00d2fcbc0e8666a65f4606aaa9784",
     "https://deno.land/std@0.65.0/_util/assert.ts": "e1f76e77c5ccb5a8e0dbbbe6cce3a56d2556c8cb5a9a8802fc9565af72462149",
     "https://deno.land/std@0.65.0/path/_constants.ts": "aba480c4a2c098b6374fdd5951fea13ecc8aaaf8b8aa4dae1871baa50243d676",
     "https://deno.land/std@0.65.0/path/_interface.ts": "5876f91d35fd42624893a4aaddaee352144e1f46e719f1dde6511bab7c3c1029",
@@ -111,6 +154,9 @@
     "https://deno.land/x/esbuild@v0.12.1/mod.d.ts": "7c4376edfa1a9b5101b2e96da0f21c66dac40ba8f1c6096ffe3b3b194cd4d96a",
     "https://deno.land/x/esbuild@v0.15.10/mod.d.ts": "12e96a8d05c8e2c5638aa9cb09f24222134d437abb2f3f52de0156adb2270719",
     "https://deno.land/x/esbuild@v0.15.10/mod.js": "b6076f05f58057025ce0eddb404a4da3b7a0e3768c53f6c87959c8c32240e9cd",
+    "https://deno.land/x/esbuild@v0.17.11/mod.d.ts": "dc279a3a46f084484453e617c0cabcd5b8bd1920c0e562e4ea02dfc828c8f968",
+    "https://deno.land/x/esbuild@v0.17.11/mod.js": "4f4e61964a551d9c0baf5bb19e973cf631cf8c66ddaf01e70070f8a100fc938c",
+    "https://deno.land/x/esbuild_plugin_cache@v0.2.10/mod.ts": "893db2f1a11d38ba45e7550bd89859aa0f4092f6887511cb35fbcc6b61c00cbb",
     "https://deno.land/x/esbuild_plugin_cache@v0.2.8/mod.ts": "893db2f1a11d38ba45e7550bd89859aa0f4092f6887511cb35fbcc6b61c00cbb",
     "https://deno.land/x/importmap@0.1.4/mod.ts": "0ba3f49893d17af5b04e525cd2af1e25e895a455db7b43c3c18db7099abdd2ac",
     "https://esm.sh/react-dom@18.2.0": "6e5ba1feccbe1bf152955cfb0865053a4b9b82d570db0f5d4dc5ab22bf942f42",
@@ -130,16 +176,104 @@
   "npm": {
     "specifiers": {
       "esbuild": "esbuild@0.15.15",
-      "esbuild-sass-plugin": "esbuild-sass-plugin@2.4.1",
+      "esbuild-sass-plugin": "esbuild-sass-plugin@2.5.0_esbuild@0.16.17_resolve@1.22.1_sass@1.56.1",
       "jquery": "jquery@3.6.1"
     },
     "packages": {
+      "@esbuild/android-arm64@0.16.17": {
+        "integrity": "sha512-MIGl6p5sc3RDTLLkYL1MyL8BMRN4tLMRCn+yRJJmEDvYZ2M7tmAf80hx1kbNEUX2KJ50RRtxZ4JHLvCfuB6kBg==",
+        "dependencies": {}
+      },
       "@esbuild/android-arm@0.15.15": {
         "integrity": "sha512-JJjZjJi2eBL01QJuWjfCdZxcIgot+VoK6Fq7eKF9w4YHm9hwl7nhBR1o2Wnt/WcANk5l9SkpvrldW1PLuXxcbw==",
         "dependencies": {}
       },
+      "@esbuild/android-arm@0.16.17": {
+        "integrity": "sha512-N9x1CMXVhtWEAMS7pNNONyA14f71VPQN9Cnavj1XQh6T7bskqiLLrSca4O0Vr8Wdcga943eThxnVp3JLnBMYtw==",
+        "dependencies": {}
+      },
+      "@esbuild/android-x64@0.16.17": {
+        "integrity": "sha512-a3kTv3m0Ghh4z1DaFEuEDfz3OLONKuFvI4Xqczqx4BqLyuFaFkuaG4j2MtA6fuWEFeC5x9IvqnX7drmRq/fyAQ==",
+        "dependencies": {}
+      },
+      "@esbuild/darwin-arm64@0.16.17": {
+        "integrity": "sha512-/2agbUEfmxWHi9ARTX6OQ/KgXnOWfsNlTeLcoV7HSuSTv63E4DqtAc+2XqGw1KHxKMHGZgbVCZge7HXWX9Vn+w==",
+        "dependencies": {}
+      },
+      "@esbuild/darwin-x64@0.16.17": {
+        "integrity": "sha512-2By45OBHulkd9Svy5IOCZt376Aa2oOkiE9QWUK9fe6Tb+WDr8hXL3dpqi+DeLiMed8tVXspzsTAvd0jUl96wmg==",
+        "dependencies": {}
+      },
+      "@esbuild/freebsd-arm64@0.16.17": {
+        "integrity": "sha512-mt+cxZe1tVx489VTb4mBAOo2aKSnJ33L9fr25JXpqQqzbUIw/yzIzi+NHwAXK2qYV1lEFp4OoVeThGjUbmWmdw==",
+        "dependencies": {}
+      },
+      "@esbuild/freebsd-x64@0.16.17": {
+        "integrity": "sha512-8ScTdNJl5idAKjH8zGAsN7RuWcyHG3BAvMNpKOBaqqR7EbUhhVHOqXRdL7oZvz8WNHL2pr5+eIT5c65kA6NHug==",
+        "dependencies": {}
+      },
+      "@esbuild/linux-arm64@0.16.17": {
+        "integrity": "sha512-7S8gJnSlqKGVJunnMCrXHU9Q8Q/tQIxk/xL8BqAP64wchPCTzuM6W3Ra8cIa1HIflAvDnNOt2jaL17vaW+1V0g==",
+        "dependencies": {}
+      },
+      "@esbuild/linux-arm@0.16.17": {
+        "integrity": "sha512-iihzrWbD4gIT7j3caMzKb/RsFFHCwqqbrbH9SqUSRrdXkXaygSZCZg1FybsZz57Ju7N/SHEgPyaR0LZ8Zbe9gQ==",
+        "dependencies": {}
+      },
+      "@esbuild/linux-ia32@0.16.17": {
+        "integrity": "sha512-kiX69+wcPAdgl3Lonh1VI7MBr16nktEvOfViszBSxygRQqSpzv7BffMKRPMFwzeJGPxcio0pdD3kYQGpqQ2SSg==",
+        "dependencies": {}
+      },
       "@esbuild/linux-loong64@0.15.15": {
         "integrity": "sha512-lhz6UNPMDXUhtXSulw8XlFAtSYO26WmHQnCi2Lg2p+/TMiJKNLtZCYUxV4wG6rZMzXmr8InGpNwk+DLT2Hm0PA==",
+        "dependencies": {}
+      },
+      "@esbuild/linux-loong64@0.16.17": {
+        "integrity": "sha512-dTzNnQwembNDhd654cA4QhbS9uDdXC3TKqMJjgOWsC0yNCbpzfWoXdZvp0mY7HU6nzk5E0zpRGGx3qoQg8T2DQ==",
+        "dependencies": {}
+      },
+      "@esbuild/linux-mips64el@0.16.17": {
+        "integrity": "sha512-ezbDkp2nDl0PfIUn0CsQ30kxfcLTlcx4Foz2kYv8qdC6ia2oX5Q3E/8m6lq84Dj/6b0FrkgD582fJMIfHhJfSw==",
+        "dependencies": {}
+      },
+      "@esbuild/linux-ppc64@0.16.17": {
+        "integrity": "sha512-dzS678gYD1lJsW73zrFhDApLVdM3cUF2MvAa1D8K8KtcSKdLBPP4zZSLy6LFZ0jYqQdQ29bjAHJDgz0rVbLB3g==",
+        "dependencies": {}
+      },
+      "@esbuild/linux-riscv64@0.16.17": {
+        "integrity": "sha512-ylNlVsxuFjZK8DQtNUwiMskh6nT0vI7kYl/4fZgV1llP5d6+HIeL/vmmm3jpuoo8+NuXjQVZxmKuhDApK0/cKw==",
+        "dependencies": {}
+      },
+      "@esbuild/linux-s390x@0.16.17": {
+        "integrity": "sha512-gzy7nUTO4UA4oZ2wAMXPNBGTzZFP7mss3aKR2hH+/4UUkCOyqmjXiKpzGrY2TlEUhbbejzXVKKGazYcQTZWA/w==",
+        "dependencies": {}
+      },
+      "@esbuild/linux-x64@0.16.17": {
+        "integrity": "sha512-mdPjPxfnmoqhgpiEArqi4egmBAMYvaObgn4poorpUaqmvzzbvqbowRllQ+ZgzGVMGKaPkqUmPDOOFQRUFDmeUw==",
+        "dependencies": {}
+      },
+      "@esbuild/netbsd-x64@0.16.17": {
+        "integrity": "sha512-/PzmzD/zyAeTUsduZa32bn0ORug+Jd1EGGAUJvqfeixoEISYpGnAezN6lnJoskauoai0Jrs+XSyvDhppCPoKOA==",
+        "dependencies": {}
+      },
+      "@esbuild/openbsd-x64@0.16.17": {
+        "integrity": "sha512-2yaWJhvxGEz2RiftSk0UObqJa/b+rIAjnODJgv2GbGGpRwAfpgzyrg1WLK8rqA24mfZa9GvpjLcBBg8JHkoodg==",
+        "dependencies": {}
+      },
+      "@esbuild/sunos-x64@0.16.17": {
+        "integrity": "sha512-xtVUiev38tN0R3g8VhRfN7Zl42YCJvyBhRKw1RJjwE1d2emWTVToPLNEQj/5Qxc6lVFATDiy6LjVHYhIPrLxzw==",
+        "dependencies": {}
+      },
+      "@esbuild/win32-arm64@0.16.17": {
+        "integrity": "sha512-ga8+JqBDHY4b6fQAmOgtJJue36scANy4l/rL97W+0wYmijhxKetzZdKOJI7olaBaMhWt8Pac2McJdZLxXWUEQw==",
+        "dependencies": {}
+      },
+      "@esbuild/win32-ia32@0.16.17": {
+        "integrity": "sha512-WnsKaf46uSSF/sZhwnqE4L/F89AYNMiD4YtEcYekBt9Q7nj0DiId2XH2Ng2PHM54qi5oPrQ8luuzGszqi/veig==",
+        "dependencies": {}
+      },
+      "@esbuild/win32-x64@0.16.17": {
+        "integrity": "sha512-y+EHuSchhL7FjHgvQL/0fnnFmO4T1bhvWANX6gcnqTjtnKWbTvUMCpGnv2+t+31d7RzyEAYAd4u2fnIhHL6N/Q==",
         "dependencies": {}
       },
       "anymatch@3.1.3": {
@@ -155,7 +289,9 @@
       },
       "braces@3.0.2": {
         "integrity": "sha512-b8um+L1RzM3WDSzvhm6gIz1yfTbBt6YTlcEKAvsmqCZZFw46z626lVj9j1yEPW33H5H+lBQpZMP1k8l+78Ha0A==",
-        "dependencies": { "fill-range": "fill-range@7.0.1" }
+        "dependencies": {
+          "fill-range": "fill-range@7.0.1"
+        }
       },
       "chokidar@3.5.3": {
         "integrity": "sha512-Dr3sfKRP6oTcjf2JmUmFJfeVMvXBdegxB0iVQ5eb2V10uFJUCAS8OByZdVAyVb8xXNz3GjjTgj9kLWsZTqE6kw==",
@@ -242,6 +378,14 @@
           "sass": "sass@1.56.1"
         }
       },
+      "esbuild-sass-plugin@2.5.0_esbuild@0.16.17_resolve@1.22.1_sass@1.56.1": {
+        "integrity": "sha512-SKWcvZwB+3/3eLhSCscJfb9AEOgL3oYlwOaItnXpXNPVj9Hc1Iwf5Cx4muUd+H+6zKyUwviAtVdRwcUsocUYgA==",
+        "dependencies": {
+          "esbuild": "esbuild@0.16.17",
+          "resolve": "resolve@1.22.1",
+          "sass": "sass@1.56.1"
+        }
+      },
       "esbuild-sunos-64@0.15.15": {
         "integrity": "sha512-jOPBudffG4HN8yJXcK9rib/ZTFoTA5pvIKbRrt3IKAGMq1EpBi4xoVoSRrq/0d4OgZLaQbmkHp8RO9eZIn5atA==",
         "dependencies": {}
@@ -285,9 +429,38 @@
           "esbuild-windows-arm64": "esbuild-windows-arm64@0.15.15"
         }
       },
+      "esbuild@0.16.17": {
+        "integrity": "sha512-G8LEkV0XzDMNwXKgM0Jwu3nY3lSTwSGY6XbxM9cr9+s0T/qSV1q1JVPBGzm3dcjhCic9+emZDmMffkwgPeOeLg==",
+        "dependencies": {
+          "@esbuild/android-arm": "@esbuild/android-arm@0.16.17",
+          "@esbuild/android-arm64": "@esbuild/android-arm64@0.16.17",
+          "@esbuild/android-x64": "@esbuild/android-x64@0.16.17",
+          "@esbuild/darwin-arm64": "@esbuild/darwin-arm64@0.16.17",
+          "@esbuild/darwin-x64": "@esbuild/darwin-x64@0.16.17",
+          "@esbuild/freebsd-arm64": "@esbuild/freebsd-arm64@0.16.17",
+          "@esbuild/freebsd-x64": "@esbuild/freebsd-x64@0.16.17",
+          "@esbuild/linux-arm": "@esbuild/linux-arm@0.16.17",
+          "@esbuild/linux-arm64": "@esbuild/linux-arm64@0.16.17",
+          "@esbuild/linux-ia32": "@esbuild/linux-ia32@0.16.17",
+          "@esbuild/linux-loong64": "@esbuild/linux-loong64@0.16.17",
+          "@esbuild/linux-mips64el": "@esbuild/linux-mips64el@0.16.17",
+          "@esbuild/linux-ppc64": "@esbuild/linux-ppc64@0.16.17",
+          "@esbuild/linux-riscv64": "@esbuild/linux-riscv64@0.16.17",
+          "@esbuild/linux-s390x": "@esbuild/linux-s390x@0.16.17",
+          "@esbuild/linux-x64": "@esbuild/linux-x64@0.16.17",
+          "@esbuild/netbsd-x64": "@esbuild/netbsd-x64@0.16.17",
+          "@esbuild/openbsd-x64": "@esbuild/openbsd-x64@0.16.17",
+          "@esbuild/sunos-x64": "@esbuild/sunos-x64@0.16.17",
+          "@esbuild/win32-arm64": "@esbuild/win32-arm64@0.16.17",
+          "@esbuild/win32-ia32": "@esbuild/win32-ia32@0.16.17",
+          "@esbuild/win32-x64": "@esbuild/win32-x64@0.16.17"
+        }
+      },
       "fill-range@7.0.1": {
         "integrity": "sha512-qOo9F+dMUmC2Lcb4BbVvnKJxTPjCm+RRpe4gDuGrzkL7mEVl/djYSu2OdQ2Pa302N4oqkSg9ir6jaLWJ2USVpQ==",
-        "dependencies": { "to-regex-range": "to-regex-range@5.0.1" }
+        "dependencies": {
+          "to-regex-range": "to-regex-range@5.0.1"
+        }
       },
       "fsevents@2.3.2": {
         "integrity": "sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==",
@@ -299,11 +472,15 @@
       },
       "glob-parent@5.1.2": {
         "integrity": "sha512-AOIgSQCepiJYwP3ARnGx+5VnTu2HBYdzbGP45eLw1vr3zB3vZLeyed1sC9hnbcOc9/SrMyM5RPQrkGz4aS9Zow==",
-        "dependencies": { "is-glob": "is-glob@4.0.3" }
+        "dependencies": {
+          "is-glob": "is-glob@4.0.3"
+        }
       },
       "has@1.0.3": {
         "integrity": "sha512-f2dvO0VU6Oej7RkWJGrehjbzMAjFp5/VKPp5tTpWIV4JHHZK1/BxbFRtf/siA2SWTe09caDmVtYYzWEIbBS4zw==",
-        "dependencies": { "function-bind": "function-bind@1.1.1" }
+        "dependencies": {
+          "function-bind": "function-bind@1.1.1"
+        }
       },
       "immutable@4.1.0": {
         "integrity": "sha512-oNkuqVTA8jqG1Q6c+UglTOD1xhC1BtjKI7XkCXRkZHrN5m18/XsnUp8Q89GkQO/z+0WjonSvl0FLhDYftp46nQ==",
@@ -311,11 +488,15 @@
       },
       "is-binary-path@2.1.0": {
         "integrity": "sha512-ZMERYes6pDydyuGidse7OsHxtbI7WVeUEozgR/g7rd0xUimYNlvZRE/K2MgZTjWy725IfelLeVcEM97mmtRGXw==",
-        "dependencies": { "binary-extensions": "binary-extensions@2.2.0" }
+        "dependencies": {
+          "binary-extensions": "binary-extensions@2.2.0"
+        }
       },
       "is-core-module@2.11.0": {
         "integrity": "sha512-RRjxlvLDkD1YJwDbroBHMb+cukurkDWNyHx7D3oNB5x9rb5ogcksMC5wHCadcXoo67gVr/+3GFySh3134zi6rw==",
-        "dependencies": { "has": "has@1.0.3" }
+        "dependencies": {
+          "has": "has@1.0.3"
+        }
       },
       "is-extglob@2.1.1": {
         "integrity": "sha512-SbKbANkN603Vi4jEZv49LeVJMn4yGwsbzZworEoyEiutsN3nJYdbO36zfhGJ6QEDpOZIFkDtnq5JRxmvl3jsoQ==",
@@ -323,7 +504,9 @@
       },
       "is-glob@4.0.3": {
         "integrity": "sha512-xelSayHH36ZgE7ZWhli7pW34hNbNl8Ojv5KVmkJD4hBdD3th8Tfk9vYasLM+mXWOZhFkgZfxhLSnrwRr4elSSg==",
-        "dependencies": { "is-extglob": "is-extglob@2.1.1" }
+        "dependencies": {
+          "is-extglob": "is-extglob@2.1.1"
+        }
       },
       "is-number@7.0.0": {
         "integrity": "sha512-41Cifkg6e8TylSpdtTpeLVMqvSBEVzTttHvERD741+pnZ8ANv0004MRL43QKPDlK9cGvNp6NZWZUBlbGXYxxng==",
@@ -347,7 +530,9 @@
       },
       "readdirp@3.6.0": {
         "integrity": "sha512-hOS089on8RduqdbhvQ5Z37A0ESjsqz6qnRcffsMU3495FuTdqSm+7bhJ29JvIOsBDEEnan5DPu9t3To9VRlMzA==",
-        "dependencies": { "picomatch": "picomatch@2.3.1" }
+        "dependencies": {
+          "picomatch": "picomatch@2.3.1"
+        }
       },
       "resolve@1.22.1": {
         "integrity": "sha512-nBpuuYuY5jFsli/JIs1oldw6fOQCBioohqWZg/2hiaOybXOft4lonv85uDOKXdf8rhyK159cxU5cDcK/NKk8zw==",
@@ -375,7 +560,9 @@
       },
       "to-regex-range@5.0.1": {
         "integrity": "sha512-65P7iz6X5yEr1cwcgvQxbbIw7Uk3gOy5dIdtZ4rDveLqhrdJP+Li/Hx6tyK0NEb+2GCyneCMJiGqrADCSNk8sQ==",
-        "dependencies": { "is-number": "is-number@7.0.0" }
+        "dependencies": {
+          "is-number": "is-number@7.0.0"
+        }
       }
     }
   }
