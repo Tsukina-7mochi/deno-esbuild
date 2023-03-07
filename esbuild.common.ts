@@ -1,18 +1,17 @@
 import * as esbuild from 'esbuild';
 import { posix } from 'posix';
 import { sassPlugin } from 'esbuild-sass-plugin';
-import { cache } from 'esbuild-cache-plugin';
-import importmap from './import_map.browser.json' assert {type: 'json'};
+import { esbuildCachePlugin } from 'esbuild-cache-plugin';
+import importMap from './import_map.browser.json' assert {type: 'json'};
 
-const dirName = new URL('.', import.meta.url).pathname;
-const srcPath = posix.join(dirName, 'src');
-const destPath = posix.join(dirName, 'dist');
-const cachePath = posix.join(dirName, 'cache');
+const srcPath = 'src';
+const destPath = 'dist';
+const cachePath = 'cache';
 
 const config: Partial<esbuild.BuildOptions> = {
   entryPoints: [
-    posix.join('src/main.ts'),
-    posix.join('src/index.html'),
+    posix.join(srcPath, 'main.ts'),
+    posix.join(srcPath, 'index.html'),
   ],
   bundle: true,
   outdir: destPath,
@@ -21,8 +20,7 @@ const config: Partial<esbuild.BuildOptions> = {
     '.html': 'copy'
   },
   plugins: [
-    cache({
-      importmap,
+    esbuildCachePlugin({
       directory: cachePath
     }),
     sassPlugin({
