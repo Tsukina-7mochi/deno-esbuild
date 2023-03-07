@@ -2,7 +2,7 @@ import * as esbuild from 'esbuild';
 import { posix } from 'posix';
 import { sassPlugin } from 'esbuild-sass-plugin';
 import { cache } from 'esbuild-cache-plugin';
-import importmap from './browser_import_map.json' assert {type: 'json'};
+import importmap from './import_map.browser.json' assert {type: 'json'};
 
 const dirName = new URL('.', import.meta.url).pathname;
 const srcPath = posix.join(dirName, 'src');
