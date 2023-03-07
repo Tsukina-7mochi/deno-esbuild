@@ -2,7 +2,7 @@
   "imports": {
     "esbuild": "https://deno.land/x/esbuild@v0.17.11/mod.js",
     "posix": "https://deno.land/std@0.174.0/path/mod.ts",
-    "esbuild-sass-plugin": "npm:esbuild-sass-plugin",
+    "esbuild-sass-plugin": "npm:esbuild-sass-plugin@2.6.0",
     "esbuild-cache-plugin": "https://deno.land/x/esbuild_cache_plugin@v0.1.0/mod.ts"
   }
 }
