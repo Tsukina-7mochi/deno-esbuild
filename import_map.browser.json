@@ -1,6 +1,0 @@
-{
-  "imports": {
-    "react": "https://esm.sh/react@18",
-    "reactDOM": "https://esm.sh/react-dom@18"
-  }
-}

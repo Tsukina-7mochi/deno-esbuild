@@ -1,8 +1,9 @@
 import * as esbuild from 'esbuild';
 import { posix } from 'posix';
-import { sassPlugin } from 'esbuild-sass-plugin';
+import sassPlugin from 'esbuild-plugin-sass';
 import { esbuildCachePlugin } from 'esbuild-cache-plugin';
-import importMap from './import_map.browser.json' assert {type: 'json'};
+import copyPlugin from 'esbuild-plugin-copy';
+import resultPlugin from 'esbuild-plugin-result';
 
 const srcPath = 'src';
 const destPath = 'dist';
@@ -17,16 +18,22 @@ const config: Partial<esbuild.BuildOptions> = {
   outdir: destPath,
   platform: 'browser',
   loader: {
-    '.html': 'copy'
+    '.html': 'copy',
   },
   plugins: [
     esbuildCachePlugin({
       directory: cachePath
     }),
-    sassPlugin({
-      type: 'style'
-    })
-  ]
+    sassPlugin(),
+    copyPlugin({
+      baseDir: srcPath,
+      baseOutDir: destPath,
+      files: [
+        { from: 'imgs/*', to: 'imgs/[name][ext]' },
+      ]
+    }),
+    resultPlugin(),
+  ],
 }
 
-export default config
+export default config;
