@@ -4,7 +4,6 @@
     "esbuild": "https://deno.land/x/esbuild@v0.17.15/mod.js",
     "esbuild-cache-plugin": "https://deno.land/x/esbuild_cache_plugin@v0.1.4/mod.ts",
     "esbuild-plugin-copy": "https://raw.githubusercontent.com/Tsukina-7mochi/esbuild-plugin-copy-deno/v1.0.5/mod.ts",
-    "esbuild-plugin-html": "npm:@chialab/esbuild-plugin-html@0.17.2",
     "esbuild-plugin-result": "https://raw.githubusercontent.com/Tsukina-7mochi/esbuild-plugin-result-deno/v1.0.6/mod.ts",
     "esbuild-plugin-sass": "https://raw.githubusercontent.com/Tsukina-7mochi/esbuild-plugin-sass-deno/v0.2.2/mod.ts",
     "posix": "https://deno.land/std@0.182.0/path/mod.ts",
