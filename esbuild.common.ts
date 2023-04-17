@@ -4,6 +4,7 @@ import sassPlugin from 'esbuild-plugin-sass';
 import { esbuildCachePlugin } from 'esbuild-plugin-cache';
 import copyPlugin from 'esbuild-plugin-copy';
 import resultPlugin from 'esbuild-plugin-result';
+import importmap from './import_map.json' assert { type: 'json' };
 
 const srcPath = 'src';
 const destPath = 'dist';
@@ -22,7 +23,8 @@ const config: Partial<esbuild.BuildOptions> = {
   },
   plugins: [
     esbuildCachePlugin({
-      directory: cachePath
+      directory: cachePath,
+      importmap
     }),
     sassPlugin(),
     copyPlugin({
