@@ -215,15 +215,15 @@
     "https://deno.land/x/denosass@1.0.6/src/mod.ts": "d2b63172f98238f77831995a5d6c8a06af5252ad8fbe7b9ec40b60eae86f2164",
     "https://deno.land/x/denosass@1.0.6/src/types/module.types.ts": "7a5027482ded1d2967fbe690ef8f928446c5de8811c3333f9b09ae6e8122f9ba",
     "https://deno.land/x/denosass@1.0.6/src/wasm/grass.deno.js": "a72432ce8d6b8f9c31e31c71415fdca03fe36aa22417e414bc81e2e21a8a687b",
-    "https://deno.land/x/esbuild@v0.17.16/mod.d.ts": "dc279a3a46f084484453e617c0cabcd5b8bd1920c0e562e4ea02dfc828c8f968",
-    "https://deno.land/x/esbuild@v0.17.16/mod.js": "5d7e63d0fe5cd00697ad81a5dfd1346f436cff4e16aa544adc4a1bbdea683e07",
-    "https://deno.land/x/esbuild_cache_plugin@v0.2.0/deps.ts": "bddfaaf538e2807f19972e4e60f7231d4323fd18c91a944fbe524905d1f2b92f",
-    "https://deno.land/x/esbuild_cache_plugin@v0.2.0/mod.ts": "7994fed1a64486636ff2dc1ba17c0182ebefdea41816700cfe9ba4bf46d78fad",
-    "https://raw.githubusercontent.com/Tsukina-7mochi/esbuild-plugin-copy-deno/v1.0.6/deps.ts": "93fdb5b6b1e4166960d3216ff19d33dad94445e99f7328aa858bbcbbf38594a1",
-    "https://raw.githubusercontent.com/Tsukina-7mochi/esbuild-plugin-copy-deno/v1.0.6/mod.ts": "48b2bcb4b6210da03d3dfe1be1a17a677089e3bd5be22d889e8a78891bf6ad68",
-    "https://raw.githubusercontent.com/Tsukina-7mochi/esbuild-plugin-result-deno/v1.0.7/deps.ts": "f765b4330ab74c5dba622424acb3a4fb2b02751574c3a804a3873abd5576779f",
-    "https://raw.githubusercontent.com/Tsukina-7mochi/esbuild-plugin-result-deno/v1.0.7/mod.ts": "fb11c4ee4102510bfc58811cd3567f11df746b009b0bacc7b1110f79409a38a3",
-    "https://raw.githubusercontent.com/Tsukina-7mochi/esbuild-plugin-sass-deno/v0.2.4/deps.ts": "5f7ee04bfd60f0b0ff5d8f1fa30e9c6ab7abb0866fde7aca12b4f6307b445f24",
-    "https://raw.githubusercontent.com/Tsukina-7mochi/esbuild-plugin-sass-deno/v0.2.4/mod.ts": "a83c499a6801370d493d2572b059fd43b46921c30a2827b1122f13d9e6212c5d"
+    "https://deno.land/x/esbuild@v0.17.17/mod.d.ts": "dc279a3a46f084484453e617c0cabcd5b8bd1920c0e562e4ea02dfc828c8f968",
+    "https://deno.land/x/esbuild@v0.17.17/mod.js": "f8371b07d6accd599aa04c8158a9da22496bf4dd3b034c93a18d2f158cdc037e",
+    "https://deno.land/x/esbuild_cache_plugin@v0.2.1/deps.ts": "dd8cbdbdb54a2ac42e0e8c78d9216f48f7f48ffd53739acdbdfa325e20589b24",
+    "https://deno.land/x/esbuild_cache_plugin@v0.2.1/mod.ts": "7994fed1a64486636ff2dc1ba17c0182ebefdea41816700cfe9ba4bf46d78fad",
+    "https://raw.githubusercontent.com/Tsukina-7mochi/esbuild-plugin-copy-deno/v1.0.7/deps.ts": "7e09a000b83385c828f664846c22375c44fe5f6788ff1ee824ae506df0e546bb",
+    "https://raw.githubusercontent.com/Tsukina-7mochi/esbuild-plugin-copy-deno/v1.0.7/mod.ts": "48b2bcb4b6210da03d3dfe1be1a17a677089e3bd5be22d889e8a78891bf6ad68",
+    "https://raw.githubusercontent.com/Tsukina-7mochi/esbuild-plugin-result-deno/v1.0.8/deps.ts": "09609fad06c9b4c44d36c0c6f874467cfde4a8576dea644deb5095af5abfc885",
+    "https://raw.githubusercontent.com/Tsukina-7mochi/esbuild-plugin-result-deno/v1.0.8/mod.ts": "fb11c4ee4102510bfc58811cd3567f11df746b009b0bacc7b1110f79409a38a3",
+    "https://raw.githubusercontent.com/Tsukina-7mochi/esbuild-plugin-sass-deno/v0.2.5/deps.ts": "23e0eaf79fc300a84950e72895cee14a201697eccaf6dc3963b71b6c3ae329aa",
+    "https://raw.githubusercontent.com/Tsukina-7mochi/esbuild-plugin-sass-deno/v0.2.5/mod.ts": "a83c499a6801370d493d2572b059fd43b46921c30a2827b1122f13d9e6212c5d"
   }
 }
