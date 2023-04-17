@@ -1,7 +1,7 @@
 import * as esbuild from 'esbuild';
 import { posix } from 'posix';
 import sassPlugin from 'esbuild-plugin-sass';
-import { esbuildCachePlugin } from 'esbuild-cache-plugin';
+import { esbuildCachePlugin } from 'esbuild-plugin-cache';
 import copyPlugin from 'esbuild-plugin-copy';
 import resultPlugin from 'esbuild-plugin-result';
 
