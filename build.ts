@@ -6,13 +6,23 @@ import prodConfig from './esbuild.prod.ts';
 
 const { options, args } = await new Command()
   .option('-d, --dev', 'development mode')
-  .option('-w, --watch', 'watch mode (development only)')
+  .option('-w, --watch', 'watch mode')
+  .option('-s, --serve', 'serve mode')
   .parse(Deno.args);
 
 const config = options.dev ? devConfig : prodConfig;
 const ctx = await esbuild.context(config);
 
-if(options.dev && options.watch) {
+if(!options.watch) {
+  await ctx.rebuild().catch(() => {});
+}
+if(options.serve) {
+  const { host, port } = await ctx.serve({
+    servedir: config.outdir
+  });
+  console.log(`Serving on ${host}:${port}`);
+}
+if(options.watch || options.serve) {
   await ctx.watch();
   console.log('Watching...');
 
@@ -20,9 +30,6 @@ if(options.dev && options.watch) {
     // manually rebuild
     await ctx.rebuild().catch(() => {});
   }
-} else {
-  // just build
-  await ctx.rebuild();
 }
 
 esbuild.stop();

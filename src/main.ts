@@ -1,7 +1,7 @@
 import './someModule.ts';
 import './style.scss';
 import App from './App.tsx';
-import ReactDOM from 'https://esm.sh/react-dom@18';
+import ReactDOM from 'react-dom';
 
 globalThis.addEventListener('load', () => {
   document.querySelector('button')?.addEventListener('click', () => {
