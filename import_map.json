@@ -7,7 +7,7 @@
     "esbuild-plugin-result": "https://raw.githubusercontent.com/Tsukina-7mochi/esbuild-plugin-result-deno/v1.0.9/mod.ts",
     "esbuild-plugin-sass": "https://raw.githubusercontent.com/Tsukina-7mochi/esbuild-plugin-sass-deno/v0.2.6/mod.ts",
     "posix": "https://deno.land/std@0.184.0/path/mod.ts",
-    "react-dom": "https://esm.sh/react-dom@18",
+    "react-dom": "https://esm.sh/react-dom@18.2.0",
     "std/": "https://deno.land/std@0.184.0/"
   }
 }
