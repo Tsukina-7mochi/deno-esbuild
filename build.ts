@@ -1,7 +1,7 @@
 import * as esbuild from 'esbuild';
 import { Command } from "cliffy";
 import { readLines } from "std/io/mod.ts";
-import buildOptions from './esbuild.common.ts';
+import buildOptions from './buildOptions.ts';
 
 const { options } = await new Command()
   .option('-d, --dev', 'development mode')
