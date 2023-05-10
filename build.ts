@@ -1,16 +1,15 @@
 import * as esbuild from 'esbuild';
 import { Command } from "cliffy";
 import { readLines } from "std/io/mod.ts";
-import devConfig from './esbuild.dev.ts';
-import prodConfig from './esbuild.prod.ts';
+import buildOptions from './esbuild.common.ts';
 
-const { options, args } = await new Command()
+const { options } = await new Command()
   .option('-d, --dev', 'development mode')
   .option('-w, --watch', 'watch mode')
   .option('-s, --serve', 'serve mode')
   .parse(Deno.args);
 
-const config = options.dev ? devConfig : prodConfig;
+const config = buildOptions(options.dev);
 const ctx = await esbuild.context(config);
 
 if(!options.watch) {

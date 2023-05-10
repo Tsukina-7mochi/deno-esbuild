@@ -10,7 +10,7 @@ const srcPath = 'src';
 const destPath = 'dist';
 const cachePath = 'cache';
 
-const buildOptions = (dev = false): esbuild.BuildOptions => ({
+const config = (dev = false): esbuild.BuildOptions => ({
   entryPoints: [
     posix.join(srcPath, 'main.ts'),
     posix.join(srcPath, 'index.html'),
@@ -37,7 +37,5 @@ const buildOptions = (dev = false): esbuild.BuildOptions => ({
     resultPlugin(),
   ],
   sourcemap: dev ? 'inline' : 'linked',
-  minify: !dev,
+  minify: dev,
 });
-
-export default buildOptions;
