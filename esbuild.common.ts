@@ -8,7 +8,7 @@ import importmap from './import_map.json' assert { type: 'json' };
 
 const srcPath = 'src';
 const destPath = 'dist';
-const cachePath = 'cache';
+const cachePath = '.cache';
 
 const buildOptions = (dev = false): esbuild.BuildOptions => ({
   entryPoints: [

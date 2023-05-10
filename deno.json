@@ -39,6 +39,6 @@
     "dev": "deno run --allow-run --allow-read --allow-write --allow-env --allow-net --importmap import_map.json ./build.ts --dev",
     "watch": "deno run --allow-run --allow-read --allow-write --allow-env --allow-net --importmap import_map.json ./build.ts --dev --watch",
     "serve": "deno run --allow-run --allow-read --allow-write --allow-env --allow-net --importmap import_map.json ./build.ts --dev --serve",
-    "clean": "rm -rf dist/ && rm -rf cache/"
+    "clean": "rm -rf ./dist && rm -rf ./.cache"
   }
 }
