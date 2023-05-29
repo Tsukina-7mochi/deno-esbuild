@@ -1,7 +1,7 @@
 import * as esbuild from 'esbuild';
 import { posix } from 'posix';
 import sassPlugin from 'esbuild-plugin-sass';
-import { esbuildCachePlugin } from 'esbuild-plugin-cache';
+import esbuildCachePlugin from 'esbuild-plugin-cache';
 import copyPlugin from 'esbuild-plugin-copy';
 import resultPlugin from 'esbuild-plugin-result';
 import importmap from './import_map.json' assert { type: 'json' };
@@ -9,6 +9,9 @@ import importmap from './import_map.json' assert { type: 'json' };
 const srcPath = 'src';
 const destPath = 'dist';
 const cachePath = '.cache';
+
+const lockMap = JSON.parse(Deno.readTextFileSync('./deno.lock'));
+const cacheDir = await esbuildCachePlugin.util.getDenoDir();
 
 const buildOptions = (dev = false): esbuild.BuildOptions => ({
   entryPoints: [
@@ -23,8 +26,9 @@ const buildOptions = (dev = false): esbuild.BuildOptions => ({
   },
   plugins: [
     esbuildCachePlugin({
-      directory: cachePath,
-      importmap
+      denoCacheDirectory: cacheDir,
+      lockMap,
+      importmap,
     }),
     sassPlugin(),
     copyPlugin({
