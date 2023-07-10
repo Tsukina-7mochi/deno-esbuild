@@ -1,14 +1,14 @@
 {
   "imports": {
     "cliffy": "https://deno.land/x/cliffy@v0.25.7/mod.ts",
-    "esbuild": "https://deno.land/x/esbuild@v0.18.1/mod.js",
-    "esbuild-plugin-cache": "https://deno.land/x/esbuild_cache_plugin@v1.0.3/mod.ts",
-    "esbuild-plugin-copy": "https://raw.githubusercontent.com/Tsukina-7mochi/esbuild-plugin-copy-deno/v1.1.0/mod.ts",
-    "esbuild-plugin-result": "https://raw.githubusercontent.com/Tsukina-7mochi/esbuild-plugin-result-deno/v1.0.11/mod.ts",
-    "esbuild-plugin-sass": "https://raw.githubusercontent.com/Tsukina-7mochi/esbuild-plugin-sass-deno/v0.2.8/mod.ts",
-    "posix": "https://deno.land/std@0.191.0/path/mod.ts",
+    "esbuild": "https://deno.land/x/esbuild@v0.18.11/mod.js",
+    "esbuild-plugin-cache": "https://deno.land/x/esbuild_cache_plugin@v1.0.4/mod.ts",
+    "esbuild-plugin-copy": "https://raw.githubusercontent.com/Tsukina-7mochi/esbuild-plugin-copy-deno/v1.1.1/mod.ts",
+    "esbuild-plugin-result": "https://raw.githubusercontent.com/Tsukina-7mochi/esbuild-plugin-result-deno/v1.0.12/mod.ts",
+    "esbuild-plugin-sass": "https://raw.githubusercontent.com/Tsukina-7mochi/esbuild-plugin-sass-deno/v0.2.9/mod.ts",
+    "posix": "https://deno.land/std@0.193.0/path/mod.ts",
     "react": "https://esm.sh/react@18.2.0",
     "react-dom": "https://esm.sh/react-dom@18.2.0",
-    "std/": "https://deno.land/std@0.191.0/"
+    "std/": "https://deno.land/std@0.193.0/"
   }
 }
