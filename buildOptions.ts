@@ -8,7 +8,6 @@ import importmap from './import_map.json' assert { type: 'json' };
 
 const srcPath = 'src';
 const destPath = 'dist';
-const cachePath = '.cache';
 
 const lockMap = JSON.parse(Deno.readTextFileSync('./deno.lock'));
 const cacheDir = await esbuildCachePlugin.util.getDenoDir();
