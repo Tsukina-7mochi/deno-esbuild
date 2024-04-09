@@ -1,5 +1,5 @@
 import * as esbuild from 'esbuild';
-import { posix } from 'posix';
+import * as path from 'path';
 import sassPlugin from 'esbuild-plugin-sass';
 import esbuildCachePlugin from 'esbuild-plugin-cache';
 import copyPlugin from 'esbuild-plugin-copy';
@@ -15,8 +15,8 @@ const cacheDir = await esbuildCachePlugin.util.getDenoDir();
 
 const buildOptions = (dev = false): esbuild.BuildOptions => ({
   entryPoints: [
-    posix.join(srcPath, 'main.ts'),
-    posix.join(srcPath, 'index.html'),
+    path.join(srcPath, 'main.ts'),
+    path.join(srcPath, 'index.html'),
   ],
   bundle: true,
   outdir: destPath,
